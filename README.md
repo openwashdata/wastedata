@@ -109,7 +109,7 @@ wastedata |>
   gt::as_raw_html()
 ```
 
-<div id="nbavslheqn" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="hkjurvzcjk" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   &#10;  <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
   <thead style="border-style: none;">
     <tr class="gt_col_headings" style="border-style: none; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3;">
@@ -272,17 +272,17 @@ description
 
 <td style="text-align:left;">
 
-NA
+submitted_on
 </td>
 
 <td style="text-align:left;">
 
-NA
+character
 </td>
 
 <td style="text-align:left;">
 
-NA
+Date when the record was submitted
 </td>
 
 </tr>
@@ -291,17 +291,531 @@ NA
 
 <td style="text-align:left;">
 
-:————-
+latitude
 </td>
 
 <td style="text-align:left;">
 
-:————-
+numeric
 </td>
 
 <td style="text-align:left;">
 
-:———–
+Latitude coordinates of the waste site
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+longitude
+</td>
+
+<td style="text-align:left;">
+
+numeric
+</td>
+
+<td style="text-align:left;">
+
+Longitude coordinates of the waste site
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+waste_active
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Indicates if the waste disposal site is currently active
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+type_of_wastesite
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Type or category of the waste site cemetery municipal commercial
+industrial sludge
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+site_open_year
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Year the site was opened
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+site_managed_local
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Shows if the site is managed by local government
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+site_close_year
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Year the site was closed
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+site_years_open
+</td>
+
+<td style="text-align:left;">
+
+numeric
+</td>
+
+<td style="text-align:left;">
+
+Total number of years the site was operational
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+waste_state
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Physical state of the waste solid or liquid
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+waste_category
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Category that best describes the type of waste
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+pollution_evidence
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Indicates if there is evidence of pollution at or near the site
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+solidwaste_source
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Source or origin of the solid waste
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+municipal_pop_served
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Population served by the municipal waste site
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+municipal_ops_type
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Type of operations conducted at municipal waste site
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+municipal_ops_other
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Other specified type of municipal waste operations
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+commercial_ops_type
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Type of operations conducted at commercial waste site
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+industrial_ops_type
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Type of operations conducted at industrial waste site
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+sludge_source
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Main source of sludge or mixed waste
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+sludge_source_other
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Other specified source of sludge or mixed waste
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+sludge_ops_type
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Type of operations conducted at sludge or mixed waste site
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+sludge_ops_other
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Other specified type of sludge or mixed waste operations
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+drinking_treatment
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Indicates if the site treats drinking water
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+drinking_sludge_local
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Shows if drinking water sludge is disposed of locally
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+waste_water_treatment
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Indicates if the site treats waste water
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+waste_water_board_mgmt
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Shows if a Water Board manages the waste water treatment plant
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+waste_water_manager
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Entity responsible for managing the waste water treatment plant
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+waste_water_sludge_local
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Shows if waste water sludge is disposed of locally
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+waste_water_category
+</td>
+
+<td style="text-align:left;">
+
+character
+</td>
+
+<td style="text-align:left;">
+
+Category that best describes the waste water
 </td>
 
 </tr>
