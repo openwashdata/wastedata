@@ -8,6 +8,8 @@
 [![License: CC BY
 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+[![DOI](https://zenodo.org/badge/1048303944.svg)](https://doi.org/10.5281/zenodo.17464896)
+
 <!-- badges: end -->
 
 This dataset contains survey records on cemeteries, burial grounds, and
