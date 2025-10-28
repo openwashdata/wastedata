@@ -1,0 +1,30 @@
+directory,file_name,variable_name,variable_type,description
+data/,wastedata.rda,submitted_on,character,Date when the record was submitted
+data/,wastedata.rda,latitude,numeric,Latitude coordinates of the waste site
+data/,wastedata.rda,longitude,numeric,Longitude coordinates of the waste site
+data/,wastedata.rda,waste_active,character,Indicates if the waste disposal site is currently active
+data/,wastedata.rda,type_of_wastesite,character,Type or category of the waste site cemetery municipal commercial industrial sludge
+data/,wastedata.rda,site_open_year,character,Year the site was opened
+data/,wastedata.rda,site_managed_local,character,Shows if the site is managed by local government
+data/,wastedata.rda,site_close_year,character,Year the site was closed
+data/,wastedata.rda,site_years_open,numeric,Total number of years the site was operational
+data/,wastedata.rda,waste_state,character,Physical state of the waste solid or liquid
+data/,wastedata.rda,waste_category,character,Category that best describes the type of waste
+data/,wastedata.rda,pollution_evidence,character,Indicates if there is evidence of pollution at or near the site
+data/,wastedata.rda,solidwaste_source,character,Source or origin of the solid waste
+data/,wastedata.rda,municipal_pop_served,character,Population served by the municipal waste site
+data/,wastedata.rda,municipal_ops_type,character,Type of operations conducted at municipal waste site
+data/,wastedata.rda,municipal_ops_other,character,Other specified type of municipal waste operations
+data/,wastedata.rda,commercial_ops_type,character,Type of operations conducted at commercial waste site
+data/,wastedata.rda,industrial_ops_type,character,Type of operations conducted at industrial waste site
+data/,wastedata.rda,sludge_source,character,Main source of sludge or mixed waste
+data/,wastedata.rda,sludge_source_other,character,Other specified source of sludge or mixed waste
+data/,wastedata.rda,sludge_ops_type,character,Type of operations conducted at sludge or mixed waste site
+data/,wastedata.rda,sludge_ops_other,character,Other specified type of sludge or mixed waste operations
+data/,wastedata.rda,drinking_treatment,character,Indicates if the site treats drinking water
+data/,wastedata.rda,drinking_sludge_local,character,Shows if drinking water sludge is disposed of locally
+data/,wastedata.rda,waste_water_treatment,character,Indicates if the site treats waste water
+data/,wastedata.rda,waste_water_board_mgmt,character,Shows if a Water Board manages the waste water treatment plant
+data/,wastedata.rda,waste_water_manager,character,Entity responsible for managing the waste water treatment plant
+data/,wastedata.rda,waste_water_sludge_local,character,Shows if waste water sludge is disposed of locally
+data/,wastedata.rda,waste_water_category,character,Category that best describes the waste water

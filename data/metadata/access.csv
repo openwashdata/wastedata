@@ -1,0 +1,3 @@
+fileName,name,contentUrl,encodingFormat
+wastedata.csv,wastedata,https://raw.githubusercontent.com/openwashdata/wastedata/main/inst/extdata/wastedata.csv,csv
+wastedata.xlsx,wastedata,https://raw.githubusercontent.com/openwashdata/wastedata/main/inst/extdata/wastedata.xlsx,ooxml

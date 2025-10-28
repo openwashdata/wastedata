@@ -1,0 +1,36 @@
+{
+  "@context": "https://openwashdata.org/",
+  "@type": "Dataset",
+  "name": "wastedata",
+  "description": "This dataset contains survey records on cemeteries, burial grounds, and waste disposal sites in Malawi. The information was gathered through field enumerators using the mWater platform as part of a mapping initiative. Each record captures details such as the location of the site, its operational status, management arrangements, and opening or closing history. The dataset also includes data on the type and state of waste present, evidence of pollution, the sources of waste, and the population served by municipal facilities. In addition, it documents the types of operations at municipal, commercial, industrial, and sludge waste sites, as well as practices related to drinking water and waste water treatment.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "openwashdata @ Global Health Engineering, ETH Zurich",
+    "url": "https://openwashdata.org/"
+  },
+  "datePublished": "2025-09-01",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": null,
+  "distribution": {
+    "@type": "DataDownload",
+    "url": "https://raw.githubusercontent.com/openwashdata/wastedata/main/inst/extdata/wastedata.csv",
+    "contentUrl": "https://raw.githubusercontent.com/openwashdata/wastedata/main/inst/extdata/wastedata.csv",
+    "encodingFormat": "text/csv"
+  },
+  "encodingFormat": "CSV",
+  "version": "1.0",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": null
+  },
+  "temporalCoverage": {
+    "@type": "DateTime",
+    "startDate": null,
+    "endDate": null
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Emmanuel Mhango",
+    "email": "emmanuellmhango@gmail.com"
+  }
+}
