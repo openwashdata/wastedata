@@ -1,5 +1,7 @@
 # Waste Site and Cemetery Survey Data (2017-2018)
 
+A data package published by [openwashdata](https://openwashdata.org).
+
 This dataset contains survey records on cemeteries, burial grounds, and
 waste disposal sites in Malawi. The information was gathered by
 enumerators using the mWater application with support from the World
